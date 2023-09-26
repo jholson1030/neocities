@@ -3,3 +3,14 @@ body {
     color: black;
     font-family: Verdana;
   }
+
+  h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .cricket {
+    align-content: center;
+    height: auto;
+    width: 500px;
+  }
