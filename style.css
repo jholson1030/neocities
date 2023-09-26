@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Pixelboy';
+    src: url(./Pixeboy.ttf);
+}
+
 body {
     background-color: #064789;
+    font-family: 'Pixelboy', Ariel, sans-serif;
     color: white;
     display: flex;
     flex-direction: column;
