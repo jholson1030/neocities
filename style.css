@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    min-height: 100vh;
     font-family: Verdana;
 }
 
@@ -24,6 +25,7 @@ h1 {
 
 .body {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,23 +33,12 @@ h1 {
 
 .cricket {
     height: auto;
-    width: 500px;
+    width: 35%;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    font-size: 24px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3rem;
-    margin: 0;
     background-color: #333333;
-    color: #dee4e7;
-    padding-bottom: 10px;
-    z-index: 1000;
+    text-align: center;
 }
 
 .github-link {
