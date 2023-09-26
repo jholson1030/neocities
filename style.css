@@ -1,11 +1,14 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: #064789;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     font-family: Verdana;
   }
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: center;
   }
 
