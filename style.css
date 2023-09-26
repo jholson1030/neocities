@@ -5,15 +5,31 @@ body {
     flex-direction: column;
     margin: 0 auto;
     font-family: Verdana;
-  }
+}
 
-  h1 {
+h1 {
     font-size: 2rem;
     text-align: center;
-  }
+}
 
-  .cricket {
-    align-content: center;
+.info {
+    background-color: #d7263d;
+    height: 30%;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cricket {
     height: auto;
     width: 500px;
-  }
+}
