@@ -23,6 +23,16 @@ h1 {
     margin: 30px;
 }
 
+.updates {
+    height: 30%;
+    width: 45%;
+    margin-right: 10%;
+    padding: 25px;
+    align-self: flex-end;
+    border: solid 5px #fcba40;
+    border-radius: 5px;
+}
+
 .body {
     display: flex;
     flex: 1;
@@ -34,6 +44,7 @@ h1 {
 .cricket {
     height: auto;
     width: 35%;
+    border-radius: 5px;
 }
 
 .footer {
