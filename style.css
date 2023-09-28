@@ -4,9 +4,9 @@
 }
 
 body {
-    background-color: #064789;
+    background-color: #282828;
     font-family: 'Pixelboy', Ariel, sans-serif;
-    color: white;
+    color: #00ff66;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -23,7 +23,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 0 0 0 60vh;
-    background-color: #333333;
+    border-bottom: solid 5px #00ff66;
     margin-bottom: 50px;
 }
 
@@ -31,7 +31,7 @@ body {
     width: 80%;
     height: auto;
     padding: 25px;
-    border: solid 5px #fcba40;
+    border: solid 5px #00ff66;
     border-radius: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -49,19 +49,19 @@ h1 {
     align-items: center;
     gap: 30px;
     text-decoration: none;
-    color: #d7263d;
+    color: #ffb000;
     font-size: 24px;
 }
 
 a {
     text-decoration: none;
     font-size: 24px;
-    color: #d7263d;
+    color: #ffb000;
     transition: all 0.5s ease-in-out ;
 }
 
 a:hover {
-    color: white;
+    color: #00ff66;
     transform: scale(1.2s);
 }
 
@@ -70,7 +70,8 @@ li {
 }
 
 .info {
-    background-color: #d7263d;
+    background-color: #00ff66;
+    color: #282828;
     height: 50%;
     width: 70%;
     text-align: center;
@@ -85,7 +86,7 @@ li {
     margin-right: 10%;
     padding: 25px;
     align-self: flex-end;
-    border: solid 5px #fcba40;
+    border: solid 5px #00ff66;
     border-radius: 5px;
 }
 
@@ -93,7 +94,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 5px #fcba40;
+    border: solid 5px #00ff66;
     border-radius: 5px;
     padding: 25px;
     margin: 50px 15%;
@@ -116,14 +117,14 @@ li {
 }
 
 .footer {
-    background-color: #333333;
+    border-top: solid 5px #00ff66;
     font-size: 24px;
     text-align: center;
     margin-top: auto;
 }
 
 .github-link {
-    color: #d7263d;
+    color: #ffb000;
     font-size: 28px;
     transition: all .5s ease-in-out;
     margin-left: 5px;
@@ -131,5 +132,5 @@ li {
 
 .github-link:hover {
     transform: scale(1.2s);
-    color: white;
+    color: #00ff66;
 }
