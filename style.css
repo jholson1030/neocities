@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Pixelboy';
-    src: url(./Pixeboy.ttf);
+    font-family: 'VT323-Regular';
+    src: url(./VT323-Regular.ttf);
 }
 
 body {
     background-color: #282828;
-    font-family: 'Pixelboy', Ariel, sans-serif;
+    font-family: 'VT323-Regular', Ariel, sans-serif;
     color: #00ff66;
     display: flex;
     flex-direction: column;
