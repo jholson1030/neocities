@@ -110,13 +110,14 @@ li {
 
 .footer {
     background-color: #333333;
+    font-size: 24px;
     text-align: center;
     margin-top: auto;
 }
 
 .github-link {
     color: #d7263d;
-    font-size: 22px;
+    font-size: 28px;
     transition: all .5s ease-in-out;
     margin-left: 5px;
 }
