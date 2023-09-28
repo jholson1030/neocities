@@ -49,12 +49,12 @@ h1 {
 a {
     text-decoration: none;
     font-size: 24px;
-    color: white;
+    color: #d7263d;
     transition: all 0.5s ease-in-out ;
 }
 
 a:hover {
-    color: #d7263d;
+    color: white;
     transform: scale(1.2s);
 }
 
@@ -115,7 +115,7 @@ li {
 }
 
 .github-link {
-    color: #dee4e7;
+    color: #d7263d;
     font-size: 22px;
     transition: all .5s ease-in-out;
     margin-left: 5px;
@@ -123,5 +123,5 @@ li {
 
 .github-link:hover {
     transform: scale(1.2s);
-    color: #d7263d;
+    color: white;
 }
