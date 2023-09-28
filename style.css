@@ -13,6 +13,11 @@ body {
     min-height: 100vh;
 }
 
+.fmj-rifle {
+    height: auto;
+    width: 550px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -29,6 +34,7 @@ body {
     border: solid 5px #fcba40;
     border-radius: 5px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
