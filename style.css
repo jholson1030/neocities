@@ -11,7 +11,6 @@ body {
     flex-direction: column;
     margin: 0 auto;
     min-height: 100vh;
-    font-family: Verdana;
 }
 
 .header {
