@@ -74,6 +74,17 @@ li {
     border-radius: 5px;
 }
 
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #fcba40;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 50px 15%;
+    align-self: flex-start;
+}
+
 .body {
     display: flex;
     flex: 1;
