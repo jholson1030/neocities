@@ -27,6 +27,7 @@ body {
     height: auto;
     padding: 25px;
     border: solid 5px #fcba40;
+    border-radius: 5px;
     margin-top: 50px;
 }
 
