@@ -14,9 +14,37 @@ body {
     font-family: Verdana;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 0 50vh;
+}
+
 h1 {
-    font-size: 2rem;
+    font-size: 48px;
     text-align: center;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    color: #d7263d;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #d7263d;
+}
+
+li {
+    list-style-type: none;
 }
 
 .info {
@@ -45,6 +73,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
 }
 
 .cricket {
