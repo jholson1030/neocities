@@ -22,6 +22,14 @@ body {
     margin-bottom: 50px;
 }
 
+.projects {
+    width: 80%;
+    height: auto;
+    padding: 25px;
+    border: solid 5px #fcba40;
+    margin-top: 50px;
+}
+
 h1 {
     font-size: 48px;
     text-align: center;
