@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 0 0 50vh;
+    padding: 0 0 0 60vh;
     background-color: #333333;
     margin-bottom: 50px;
 }
