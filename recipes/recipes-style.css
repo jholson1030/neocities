@@ -45,8 +45,21 @@ body {
 }
 
 .content {
+    margin-top: 50px;
     margin-left: 15%;
     padding: 0px 10px;
+}
+
+.content-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza-ground {
+    height: auto;
+    width: 20%;
 }
 
 .footer {
