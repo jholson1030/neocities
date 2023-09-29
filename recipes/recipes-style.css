@@ -3,10 +3,23 @@ body {
     min-height: 100vh;
 }
 
+.header {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.clock {
+    padding-left: 40%;
+}
+
 .sidebar {
     height: 100%;
     width: 15%;
     margin-top: 5%;
+    margin-bottom: 5%;
     position: fixed;
     z-index: 1;
     top: 0;
