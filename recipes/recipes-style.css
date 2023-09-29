@@ -90,3 +90,8 @@ body {
     transform: scale(1.2s);
     color: #00ff66;
 }
+
+.cavatelli-img {
+    height: auto;
+    width: 40%;
+}
