@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(./Rubik-Italic-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0 auto;
     min-height: 100vh;
+    font-family: 'Rubik', Ariel, sans-serif;
 }
 
 .header {
