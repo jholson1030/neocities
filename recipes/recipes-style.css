@@ -51,8 +51,7 @@ body {
 }
 
 .content {
-    margin-top: 50px;
-    margin-left: 15%;
+    margin: 50px 5% 100px 15%;
     padding: 0px 10px;
 }
 
