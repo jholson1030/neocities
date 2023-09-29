@@ -62,6 +62,11 @@ body {
     align-items: center;
 }
 
+li {
+    list-style-type: none;
+    padding: 3px;
+}
+
 .pizza-ground {
     height: auto;
     width: 20%;
