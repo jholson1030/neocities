@@ -34,7 +34,6 @@ body {
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    background-color: #282828;
 }
 
 .sidebar a {
@@ -68,4 +67,19 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    background-color: #282828;
+    color: white;
+}
+
+.github-link {
+    color: #ffb000;
+    font-size: 28px;
+    padding-left: 5px;
+    transition: all .5s ease-in-out;
+    margin-left: 5px;
+}
+
+.github-link:hover {
+    transform: scale(1.2s);
+    color: #00ff66;
 }
