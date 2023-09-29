@@ -40,7 +40,14 @@ body {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 24px;
+    color: orangered;
     display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar a:hover {
+    color: rgb(18, 31, 176);
+    transform: scale(1.2s);
 }
 
 .content {
