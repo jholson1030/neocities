@@ -4,6 +4,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     min-height: 100vh;
     font-family: 'Rubik', Ariel, sans-serif;
@@ -45,4 +47,12 @@ body {
 .content {
     margin-left: 15%;
     padding: 0px 10px;
+}
+
+.footer {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
