@@ -50,7 +50,11 @@ body {
     border: solid 5px #00ff66;
     border-radius: 5px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.projects li {
+    padding: 10px;
 }
 
 h1 {
