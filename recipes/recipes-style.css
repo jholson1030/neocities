@@ -9,6 +9,11 @@ body {
     margin: 0 auto;
     min-height: 100vh;
     font-family: 'Rubik', Ariel, sans-serif;
+    background-image: url(./pixel-art-retro-kitchen-view-old-kitchen-background-retro-style-8-bit-game-generative-ai_985124-738.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
 }
 
 .header {
