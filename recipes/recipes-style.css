@@ -19,6 +19,15 @@ body {
     padding: 0px 40px 0px 45%;
 }
 
+.title {
+    font-size: 3rem;
+    color: orangered;
+    -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
 .clock {
     padding-left: 40%;
 }
