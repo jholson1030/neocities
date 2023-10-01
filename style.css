@@ -13,6 +13,11 @@ body {
     min-height: 100vh;
 }
 
+.title {
+    font-size: 4.5rem;
+    text-transform: uppercase;      
+}
+
 .fmj-rifle {
     height: auto;
     width: 550px;
