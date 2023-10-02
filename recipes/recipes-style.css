@@ -81,6 +81,7 @@ li {
 .pizza-ground {
     height: auto;
     width: 20%;
+    margin: 50px;
 }
 
 .footer {
