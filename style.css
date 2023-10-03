@@ -115,6 +115,20 @@ li {
     border-radius: 5px;
 }
 
+.updates::-webkit-scrollbar {
+    width: 20px;
+}
+
+.updates::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #282828;
+    border-radius: 10px;
+}
+
+.updates::-webkit-scrollbar-thumb {
+    background-color: #00ff66;
+    border-radius: 10px;
+}
+
 .extra {
     display: flex;
     justify-content: center;
