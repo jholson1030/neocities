@@ -126,7 +126,7 @@ li {
 
 .updates::-webkit-scrollbar-thumb {
     background-color: #00ff66;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .extra {
