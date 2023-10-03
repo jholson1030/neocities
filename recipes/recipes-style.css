@@ -112,3 +112,16 @@ li {
     width: 40%;
     margin: 50px;
 }
+
+.content-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 30%;
+}
+
+.ribs-cat {
+    height: auto;
+    width: 25%;
+}
