@@ -41,9 +41,9 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 0 0 60vh;
+    padding: 0 5%;
     border-bottom: solid 5px #00ff66;
     margin-bottom: 50px;
 }
