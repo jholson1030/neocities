@@ -15,7 +15,8 @@ body {
 
 .title {
     font-size: 4.5rem;
-    text-transform: uppercase;      
+    text-transform: uppercase;   
+    padding-left: 15%;   
 }
 
 .fmj-rifle {
