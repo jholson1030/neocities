@@ -109,6 +109,7 @@ li {
 .updates-wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .mmbn-run {
@@ -116,6 +117,22 @@ li {
     width: 100px;
     background: url(mmbn-run1.png);
     animation: kick 0.8s steps(6) infinite;
+}
+
+.blue-orb {
+    height: 21px;
+    width: 15.5px;
+    background: url(blue-orb.png);
+    animation: orb 0.5s steps(8) infinite;
+}
+
+@keyframes orb {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -133px 0;
+    }
 }
 
 @keyframes kick {
