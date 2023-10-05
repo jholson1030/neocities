@@ -117,6 +117,7 @@ li {
     width: 100px;
     background: url(mmbn-run1.png);
     animation: kick 0.8s steps(6) infinite;
+    margin-left: 10%;
 }
 
 .blue-orb {
