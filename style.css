@@ -106,10 +106,31 @@ li {
     margin: 30px;
 }
 
+.updates-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mmbn-run {
+    height: 150px;
+    width: 100px;
+    background: url(mmbn-run1.png);
+    animation: kick 0.8s steps(6) infinite;
+}
+
+@keyframes kick {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -622px 0;
+    }
+}
+
 .updates {
     height: 30%;
     width: 45%;
-    margin-right: 10%;
+    /*margin-right: 10%;*/
     padding: 25px;
     align-self: flex-end;
     border: solid 5px #00ff66;
