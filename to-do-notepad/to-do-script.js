@@ -7,6 +7,9 @@ const noteSubmit = document.getElementById('note-submit');
 // Note array
 let noteTasks = [];
 
+// By default, -1 means no task is being edited
+let editIndex = -1; 
+
 // Listening for a button click
 noteSubmit.addEventListener('click', function(event) {
     // Prevent the default behavior of the form submission
@@ -17,8 +20,16 @@ noteSubmit.addEventListener('click', function(event) {
 
     // Checks if the input is not empty
     if (noteInputValue.length) {
-        // Add the task to the task array
-        noteTasks.push(noteInputValue);
+        if (editIndex !== -1) {
+            // Update the existing task
+            noteTasks[editIndex] = noteInputValue;
+
+            // Reset the editIndex
+            editIndex = -1;
+        } else {
+            // Add the task to the task array
+            noteTasks.push(noteInputValue);
+        }
 
         // Update the DOM
         updateNotes();
@@ -37,30 +48,64 @@ function updateNotes() {
         // Wrapper for the taskElement and deleteButton
         const taskWrapper = document.createElement('div');
         taskWrapper.className = 'task-wrapper';
+        // Wrapper for the options
+        const optionWrapper = document.createElement('div');
+        optionWrapper.className = 'option-wrapper';
 
+        // Task element creation
         const taskElement = document.createElement('div');
-        const deleteButton = document.createElement('button');
-        taskElement.className = 'task'; // For styling purposes
-        deleteButton.className = 'delete';
+        taskElement.className = 'task'; 
         taskElement.textContent = task;
+        // Delete button creation
+        const deleteButton = document.createElement('button');
+        deleteButton.className = 'delete';
         deleteButton.textContent = 'X';
+        // Edit button creation
+        const editButton = document.createElement('button');
+        editButton.className = 'edit';
+        editButton.textContent = 'Edit';
 
         saveTasks();
 
-        // Append taskElement and deleteButton to taskWrapper
-        taskWrapper.appendChild(taskElement);
-        taskWrapper.appendChild(deleteButton);
-
-        // Append the taskElement and deleteButton to the noteContainer
-        noteContainer.appendChild(taskWrapper);
 
         // Delete completed tasks
-        deleteButton.addEventListener('click', function(task) {
-            taskWrapper.remove(task);
-        })
-    });
-}
+        deleteButton.addEventListener('click', function(event) {
+            // Find the index of the task in noteTasks
+            const index = noteTasks.indexOf(task);
+            if (index > -1) {
+                // Remove the task from noteTasks array
+                noteTasks.splice(index, 1);
+            }
 
+            taskWrapper.remove();
+            // Update the DOM and local storage
+            updateNotes();
+            saveTasks();
+        });
+
+        // Edit button event listener
+        editButton.addEventListener('click', function() {
+            // Loads the task back to the HTML textarea for editing
+            noteInput.value = task;
+
+            // Set the index of the task being edited
+            editIndex = noteTasks.indexOf(task);
+        });
+
+        // Appends
+        optionWrapper.appendChild(editButton);
+        optionWrapper.appendChild(deleteButton);
+        
+
+        taskWrapper.appendChild(taskElement);
+        taskWrapper.appendChild(optionWrapper);
+
+        // Append the taskElement and optionWrapper to the noteContainer
+        noteContainer.appendChild(taskWrapper);
+
+    });
+    saveTasks();
+}
 
 // Function to save tasks to local storage
 

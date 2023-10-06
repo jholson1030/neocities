@@ -32,7 +32,7 @@ body {
 
 #note-container {
     height: 70%;
-    width: 50%;
+    width: 70%;
     border: solid 10px firebrick;
     border-image: linear-gradient( to top right, firebrick, #333333 );
     border-image-slice: 1;
@@ -40,21 +40,43 @@ body {
 }
 
 .task-wrapper {
+    width: 95%;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
-    margin: 10px 20% 0;
+    align-items: center;
+    margin: 10px 0 5px 20px;
     border: solid 2px whitesmoke;
     padding: 5px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.option-wrapper {
+    width: 100px;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
 }
 
 .task {
+    width: 1fr;
     padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+    padding-right: 100px;
 }
 
-.delete {
+.delete, .edit {
     width: 50px;
     height: 25px;
-    border: none;
+    border: solid 1px #333333;
+    margin: 3px;
 }
 
 #note-input {
