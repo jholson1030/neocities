@@ -46,3 +46,12 @@ function currentTime() {
     newImage.setAttribute('src', src);
     modal.append(newImage);
   }
+
+  // Create close button
+  const closeBtn = document.createElement('i');
+  closeBtn.setAttribute('class', 'fas fa-times closeBtn');
+  // Close function
+  closeBtn.onclick = function() {
+    modal.remove();
+  }
+  modal.append(newImage, closeBtn);
