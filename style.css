@@ -317,11 +317,12 @@ li {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 24px;
-    color: #b22e1d;
+    color: #ffb000;
     display: block;
     transition: all 0.5s ease-in-out;
 }
 
 .sidebar a:hover {
-    color: #e1d464;
+    color: #00ff66;
     transform: scale(1.2s);
+}    
