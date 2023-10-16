@@ -34,3 +34,10 @@ function currentTime() {
         imgSrc = event.target.src;
     });
   });
+
+  // Creating the modal
+  let imgModal = function(src) {
+    const modal = document.createElement('div');
+    modal.setAttribute('class', 'modal');
+    
+  }
