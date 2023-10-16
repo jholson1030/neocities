@@ -15,8 +15,7 @@ body {
 
 .title {
     font-size: 4.5rem;
-    text-transform: uppercase;   
-    padding-left: 15%;   
+    text-transform: uppercase;    
 }
 
 .fmj-rifle {
@@ -197,6 +196,7 @@ li {
 }
 
 .footer {
+    max-height: 5%;
     border-top: solid 5px #00ff66;
     font-size: 24px;
     text-align: center;
@@ -301,8 +301,8 @@ li {
 }
 
 .sidebar {
-    height: 90%;
-    width: 15%;
+    max-height: 85%;
+    width: 10%;
     margin-top: 15%;
     margin-bottom: 5%;
     position: fixed;
@@ -310,7 +310,9 @@ li {
     top: 0;
     left: 0;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding: 20px;
+    border: solid 5px #00ff66;
+    border-radius: 5px;
 }
 
 .sidebar a {
@@ -326,3 +328,8 @@ li {
     color: #00ff66;
     transform: scale(1.2s);
 }    
+
+#clock {
+    font-size: 24px;
+    color: #ffb000;
+}
