@@ -223,6 +223,11 @@ li {
     margin-bottom: 50px;
 }
 
+.gallery-h1 {
+    font-size: 32px;
+    margin: 20px;
+}
+
 .gallery-item {
     cursor: pointer;
     overflow: hidden;
@@ -232,7 +237,7 @@ li {
     height: auto;
     width: 300px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
 
