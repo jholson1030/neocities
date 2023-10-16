@@ -32,26 +32,28 @@ function currentTime() {
   images.forEach(function(img) {
     img.addEventListener('click', function(event) {
         imgSrc = event.target.src;
+        imgModal(imgSrc);
     });
   });
 
   // Creating the modal
-  let imgModal = function(src) {
+let imgModal = function(src) {
     const modal = document.createElement('div');
     modal.setAttribute('class', 'modal');
     // Add the modal to the main section of the parent element
     document.querySelector('.body').append(modal);
+    
     // Add image to modal
     const newImage = document.createElement('img');
     newImage.setAttribute('src', src);
     modal.append(newImage);
-  }
-
-  // Create close button
-  const closeBtn = document.createElement('i');
-  closeBtn.setAttribute('class', 'fas fa-times closeBtn');
-  // Close function
-  closeBtn.onclick = function() {
-    modal.remove();
-  }
-  modal.append(newImage, closeBtn);
+    
+    // Create close button
+    const closeBtn = document.createElement('i');
+    closeBtn.setAttribute('class', 'fas fa-times closeBtn');
+    // Close function
+    closeBtn.onclick = function() {
+        modal.remove();
+    }
+    modal.append(closeBtn);
+}
