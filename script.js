@@ -24,3 +24,13 @@ function currentTime() {
   }
   
   currentTime();
+
+
+  const images = document.querySelectorAll('.gallery-item img');
+  let imgSrc;
+  // Get images src on click
+  images.forEach(function(img) {
+    img.addEventListener('click', function(event) {
+        imgSrc = event.target.src;
+    });
+  });
