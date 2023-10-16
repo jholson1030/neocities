@@ -39,5 +39,10 @@ function currentTime() {
   let imgModal = function(src) {
     const modal = document.createElement('div');
     modal.setAttribute('class', 'modal');
-    
+    // Add the modal to the main section of the parent element
+    document.querySelector('.body').append(modal);
+    // Add image to modal
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', src);
+    modal.append(newImage);
   }
