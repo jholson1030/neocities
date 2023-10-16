@@ -213,3 +213,21 @@ li {
     transform: scale(1.2s);
     color: #00ff66;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    height: auto;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
