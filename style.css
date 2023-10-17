@@ -181,7 +181,7 @@ li {
     height: 30%;
     width: 45%;
     /*margin-right: 10%;*/
-    padding: 25px;
+    padding: 25px 40px;
     align-self: flex-end;
     border: solid 5px #00ff66;
     border-radius: 5px;
