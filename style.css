@@ -314,6 +314,7 @@ li {
 
 .modal img {
     width: 50%;
+    max-height: 80%;
     object-fit: cover;
     border-radius: 10px;
 }
