@@ -148,7 +148,7 @@ li {
     height: 150px;
     width: 100px;
     background: url(mmbn-run1.png);
-    animation: kick 0.8s steps(6) infinite;
+    animation: run 0.8s steps(6) infinite;
     margin-left: 10%;
 }
 
@@ -168,7 +168,7 @@ li {
     }
 }
 
-@keyframes kick {
+@keyframes run {
     0% {
         background-position: 0 0;
     }
@@ -315,6 +315,7 @@ li {
 .modal img {
     width: 50%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .closeBtn {
