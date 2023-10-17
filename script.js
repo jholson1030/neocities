@@ -27,14 +27,13 @@ function currentTime() {
 
 
   const images = document.querySelectorAll('.gallery-item img');
-  let imgSrc;
   // Get images src on click
   images.forEach(function(img) {
     img.addEventListener('click', function(event) {
-        imgSrc = event.target.src;
+        let imgSrc = event.target.src;
         // Extract the description from the data-description or the alt attribute 
         let description = event.target.getAttribute('data-description') || event.target.addEventListener;
-        imgModal(imgSrc);
+        imgModal(imgSrc, description);
     });
   });
 
