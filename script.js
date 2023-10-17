@@ -32,12 +32,14 @@ function currentTime() {
   images.forEach(function(img) {
     img.addEventListener('click', function(event) {
         imgSrc = event.target.src;
+        // Extract the description from the data-description or the alt attribute 
+        let description = event.target.getAttribute('data-description') || event.target.addEventListener;
         imgModal(imgSrc);
     });
   });
 
   // Creating the modal
-let imgModal = function(src) {
+let imgModal = function(src, descriptionText) {
     const modal = document.createElement('div');
     modal.setAttribute('class', 'modal');
     // Add the modal to the main section of the parent element
@@ -47,7 +49,13 @@ let imgModal = function(src) {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', src);
     modal.append(newImage);
-    
+    // Add description to modal
+    if (descriptionText) {
+        const imageDescription = document.createElement('p');
+        imageDescription.setAttribute('class', 'image-description');
+        imageDescription.textContent = descriptionText;
+        modal.append(imageDescription);
+    }
     // Create close button
     const closeBtn = document.createElement('i');
     closeBtn.setAttribute('class', 'fas fa-times closeBtn');
