@@ -48,7 +48,37 @@ body {
     border-bottom: solid 5px #00ff66;
     margin-bottom: 50px;
     position: relative;
-    z-index: 2;
+}
+
+.sidebar {
+    z-index: 1;
+    margin-top: 10%;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border: solid 5px #00ff66;
+    border-radius: 5px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffb000;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar a:hover {
+    color: #00ff66;
+    transform: scale(1.2s);
+}    
+
+#clock {
+    font-size: 24px;
+    color: #ffb000;
 }
 
 .projects {
@@ -300,38 +330,4 @@ li {
 
 .closeBtn:hover {
     color: rgb(255, 255, 255);
-}
-
-.sidebar {
-    max-height: 85%;
-    width: 10%;
-    margin-top: 15%;
-    margin-bottom: 5%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding: 20px;
-    border: solid 5px #00ff66;
-    border-radius: 5px;
-}
-
-.sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    color: #ffb000;
-    display: block;
-    transition: all 0.5s ease-in-out;
-}
-
-.sidebar a:hover {
-    color: #00ff66;
-    transform: scale(1.2s);
-}    
-
-#clock {
-    font-size: 24px;
-    color: #ffb000;
 }
