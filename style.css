@@ -76,6 +76,11 @@ body {
     transform: scale(1.2s);
 } 
 
+.cat-gif {
+    padding-top: 20px;
+    padding-left: 35%;
+}
+
 #clock {
     font-size: 24px;
     color: #ffb000;
