@@ -243,7 +243,7 @@ li {
 }
 
 .github-link:hover {
-    transform: scale(1.2s);
+    transform: scale(1.5s);
     color: #00ff66;
 }
 
@@ -322,7 +322,7 @@ li {
 
 .closeBtn {
     color: rgba(255, 255, 255, 0.87);
-    font-size: 25px;
+    font-size: 40px;
     position: absolute;
     top: 0;
     right: 0;
