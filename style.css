@@ -394,3 +394,50 @@ th, td {
     padding: 25px;
     text-align: center;
 }
+
+.party-time {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dance-break-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 250px;
+    background-color: #282828;
+    color: #00ff66;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'VT323-Regular', Ariel, sans-serif;
+    border: solid 5px #00ff66;
+    border-radius: 5px;
+    outline-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.dance-break-btn:hover {
+    background-color: #00ff66;
+    border: solid 5px #ffb000;
+    color: #282828;
+    transform: scale(1.2);
+}
+
+.dance-break {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: no-wrap;
+    margin: 30px;
+}
+
+.megaman-dance {
+    height: auto;
+    width: 200px;
+    padding: 40px;
+    display: none;
+}
