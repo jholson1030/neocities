@@ -64,3 +64,37 @@ let imgModal = function(src, descriptionText) {
     }
     modal.append(closeBtn);
 }
+
+
+/* =============================================================
+                        DANCE BREAK                             
+   ============================================================= */
+
+
+
+// Declare variables
+let partyTime = document.querySelector('.party-time');
+let danceBreakButton = document.querySelector('.dance-break-btn');
+let danceBreak = document.querySelector('.dance-break');
+let partyState = false;
+
+function partyOn() {
+    danceBreak.style.display = 'flex';
+}
+
+function partyOff() {
+    danceBreak.style.display = 'none';
+}
+
+function toggleParty() {
+    if (partyState) {
+        partyOff();
+        danceBreakButton.innerHTML = 'Make it a Party';
+    } else {
+        partyOn();
+        danceBreakButton.innerHTML = 'DANCE!!!';
+    }
+    partyState = !partyState;
+}
+
+danceBreakButton.addEventListener('click', toggleParty);
