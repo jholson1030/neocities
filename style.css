@@ -339,3 +339,30 @@ li {
 .closeBtn:hover {
     color: rgb(255, 255, 255);
 }
+
+.links-intro {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 40%;
+    color: #282828;
+    background-color: #00ff66;
+    border-radius: 10px;
+    padding: 40px;
+    align-items: center;
+}
+
+.links-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links-pic {
+    height: auto;
+    width: 300px;
+    object-fit: cover;
+    display: flex;
+    margin: 25px;
+    border-radius: 5px;
+}
