@@ -366,3 +366,26 @@ li {
     margin: 25px;
     border-radius: 5px;
 }
+
+.links {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border: solid #00ff66 5px;
+    border-radius: 10px;
+}
+
+.links-table {
+    margin: 30px;
+}
+
+th {
+   font-size: 32px; 
+}
+
+th, td {
+    color: #00ff66;
+    padding: 10px 20px;
+    text-align: center;
+}
