@@ -384,8 +384,12 @@ th {
    font-size: 32px; 
 }
 
+.table-site {
+    width: 35%;
+}
+
 th, td {
     color: #00ff66;
-    padding: 10px 20px;
+    padding: 25px;
     text-align: center;
 }
