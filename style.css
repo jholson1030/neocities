@@ -398,7 +398,7 @@ th, td {
 .party-time {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -433,11 +433,11 @@ th, td {
     align-items: center;
     flex-wrap: no-wrap;
     margin: 30px;
+    display: none;
 }
 
 .megaman-dance {
     height: auto;
     width: 200px;
     padding: 40px;
-    display: none;
 }
