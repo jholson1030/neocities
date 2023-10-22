@@ -441,3 +441,10 @@ th, td {
     width: 200px;
     padding: 40px;
 }
+
+.hotline-webring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
