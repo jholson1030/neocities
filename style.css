@@ -428,10 +428,9 @@ th, td {
 }
 
 .dance-break {
-    display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     margin: 30px;
     display: none;
 }
