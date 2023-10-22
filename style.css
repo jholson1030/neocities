@@ -11,6 +11,31 @@ body {
     flex-direction: column;
     margin: 0 auto;
     min-height: 100vh;
+    font-size: 100%;
+}
+
+@media (min-width: 320px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 480px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.7rem;
+    }
 }
 
 .title {
