@@ -470,3 +470,9 @@ th, td {
 .hotline-link {
     margin: 5px;
 }
+
+.null-webring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
