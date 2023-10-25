@@ -1,3 +1,7 @@
+/* ===================================================
+                    Clock
+   =================================================== */
+
 function currentTime() {
     let date = new Date(); 
     let hh = date.getHours();
@@ -25,6 +29,9 @@ function currentTime() {
   
   currentTime();
 
+/* ==========================================================
+                    Photo Gallery
+   ========================================================== */  
 
   const images = document.querySelectorAll('.gallery-item img');
   // Get images src on click
