@@ -7,5 +7,25 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
+#dance-floor {
+    width: 100%;
+    max-height: 30%;
+    position: relative;
+}
+
+#dancers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.dancer {
+    margin: 0 10px;
+}
+
