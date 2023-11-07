@@ -485,3 +485,39 @@ th, td {
     align-items: center;
     margin-bottom: 40px;
 }
+
+.scrolling-container {
+    border: 5px solid #00ff66;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    -moz-transform: translateX(100%);
+    -webkit-moz-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-moz-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+  /*Firefox*/
+  @-mox-keyframes my-animation {
+    from {
+      -moz-transform:translateX(100%);
+    }
+    to {
+      -moz-transform:translateX(-100%);
+    }
+  }
+  
+  /*Chrome*/
+  @-webkit-keyframes my-animation {
+    from {
+      -webkit-transform: translateX(100%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+    }
+  }
