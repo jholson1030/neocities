@@ -87,10 +87,12 @@ let partyState = false;
 
 function partyOn() {
     danceBreak.style.display = 'flex';
+    MIDIjs.play('./Wang Chung - Dance Hall Days.mid');
 }
 
 function partyOff() {
     danceBreak.style.display = 'none';
+    MIDIjs.stop();
 }
 
 function toggleParty() {
@@ -105,3 +107,12 @@ function toggleParty() {
 }
 
 danceBreakButton.addEventListener('click', toggleParty);
+
+
+
+
+/* ===========================================================
+                    PLAY MIDI FILES
+   =========================================================== */
+   
+   
