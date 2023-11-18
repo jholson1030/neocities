@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Rubik';
-    src: url(./Rubik-Italic-VariableFont_wght.ttf);
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-VariableFont_wght.ttf);
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
     min-height: 100vh;
-    font-family: 'Rubik', Ariel, sans-serif;
+    font-family: 'Raleway', Ariel, sans-serif;
     background-color: #363537;
     color: #0cce6b;
 }
