@@ -65,6 +65,7 @@ body {
 .content {
     margin: 50px 5% 100px 15%;
     padding: 0px 10px;
+    font-size: 24px;
 }
 
 .content-head {
