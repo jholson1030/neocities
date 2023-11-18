@@ -9,8 +9,8 @@ body {
     margin: 0 auto;
     min-height: 100vh;
     font-family: 'Rubik', Ariel, sans-serif;
-    background-color: #0b132b;
-    color: #5bc0be;
+    background-color: #363537;
+    color: #0cce6b;
 }
 
 .header {
@@ -23,15 +23,16 @@ body {
 
 .title {
     font-size: 3rem;
-    color: #5bc0be;
+    color: #0cce6b;
     -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
     transform: skew(-5deg, -5deg) rotate(5deg);
     -webkit-transform-origin: center center;
     transform-origin: center center;
 }
 
-.clock {
+#clock {
     padding-left: 40%;
+    color: #dced31;
 }
 
 .sidebar {
@@ -51,13 +52,13 @@ body {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 24px;
-    color: #5bc0be;
+    color: #dced31;
     display: block;
     transition: all 0.5s ease-in-out;
 }
 
 .sidebar a:hover {
-    color: #0fffe9;
+    color: #ef2d56;
     transform: scale(1.2s);
 }
 
@@ -90,12 +91,12 @@ li {
     justify-content: center;
     align-items: center;
     margin-top: auto;
-    background-color: #3a506b;
-    color: #5bc0be;
+    background-color: #0cce6b;
+    color: #363537;
 }
 
 .github-link {
-    color: #5bc0be;
+    color: #dced31;
     font-size: 28px;
     padding-left: 5px;
     transition: all .5s ease-in-out;
@@ -104,7 +105,7 @@ li {
 
 .github-link:hover {
     transform: scale(1.2s);
-    color: #6fffe9;
+    color: #ef2d56;
 }
 
 .cavatelli-img, .ribs-img, .steak-img {
