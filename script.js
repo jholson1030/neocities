@@ -87,12 +87,13 @@ let partyState = false;
 
 function partyOn() {
     danceBreak.style.display = 'flex';
-    MIDIjs.play('./Wang Chung - Dance Hall Days.mid');
+    document.getElementById('nyan-cat').play();
 }
 
 function partyOff() {
     danceBreak.style.display = 'none';
-    MIDIjs.stop();
+    document.getElementById('nyan-cat').pause();
+    document.getElementById('nyan-cat').currentTime = 0;
 }
 
 function toggleParty() {
