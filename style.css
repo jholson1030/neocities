@@ -521,3 +521,7 @@ th, td {
       -webkit-transform: translateX(-100%);
     }
   }
+
+#nyan-cat {
+    display: none;
+}
