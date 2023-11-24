@@ -519,12 +519,12 @@ th, td {
 ::-webkit-scrollbar-track {
     background-color: #00ff66;
     box-shadow: inset 0 0 5px #009a3e;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #282828;
-    border-radius: 5px;
+    border-radius: 10px;
     border: solid 1px #00ff66;
     box-shadow: #01973d;
 }
@@ -536,12 +536,12 @@ th, td {
 .updates::-webkit-scrollbar-track {
     background-color: #00ff66;
     box-shadow: inset 0 0 5px #009a3e;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .updates::-webkit-scrollbar-thumb {
     background-color: #282828;
-    border-radius: 5px;
+    border-radius: 10px;
     border: solid 1px #00ff66;
     box-shadow: #01973d;
 }
