@@ -531,11 +531,14 @@ th, td {
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #282828;
+    background-color: #00ff66;
+    box-shadow: inset 0 0 5px #009a3e;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #00ff66;
+    background-color: #282828;
     border-radius: 5px;
+    border: solid 1px #00ff66;
+    box-shadow: #01973d;
 }
