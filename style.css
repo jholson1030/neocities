@@ -462,7 +462,11 @@ th, td {
 
 .hotline-link {
     margin: 5px;
-    
+    color: #282828;
+}
+
+.hotline-link:hover {
+    color: #ffb000;
 }
 
 .null-webring {
