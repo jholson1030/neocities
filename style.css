@@ -48,22 +48,6 @@ body {
     width: 30%;
 }
 
-.cat-glasses {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 55%;
-    padding: 50px;
-    border: solid 5px #00ff66;
-    border-radius: 5px;
-}
-
-.cat-glasses-img {
-    height: auto;
-    width: 40%;
-}
-
 .header {
     max-height: 10%;
     display: flex;
