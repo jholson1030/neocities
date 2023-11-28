@@ -542,7 +542,7 @@ th, td {
     background-color: #282828;
     border-radius: 10px;
     border: solid 1px #00ff66;
-    box-shadow: #01973d;
+    box-shadow: #00ff66;
 }
 
 .updates::-webkit-scrollbar {
@@ -559,5 +559,5 @@ th, td {
     background-color: #00ff66;
     border-radius: 10px;
     border: solid 1px #00ff66;
-    box-shadow: #01973d;
+    box-shadow: #282828;
 }
