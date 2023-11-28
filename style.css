@@ -74,6 +74,22 @@ body {
     position: relative;
 }
 
+.blinking {
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 .sidebar {
     z-index: 1;
     margin-top: 10%;
@@ -470,13 +486,6 @@ th, td {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-}
-
-.hit-counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
 }
 
 .scrolling-container {
