@@ -113,10 +113,11 @@ body {
     width: 80%;
     height: auto;
     padding: 25px;
-    border: solid 5px #00ff66;
+    background: #282828;
     border-radius: 5px;
     margin-top: 50px;
     margin-bottom: 80px;
+    opacity: 0.8;
 }
 
 .projects li {
@@ -524,12 +525,14 @@ th, td {
     background-color: #00ff66;
     box-shadow: inset 0 0 5px #282828;
     border-radius: 5px;
+    
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #282828;
     border-radius: 10px;
     box-shadow: #00ff66;
+    border: solid 1px #00ff66;
 }
 
 .updates::-webkit-scrollbar {
