@@ -364,6 +364,7 @@ li {
     border-radius: 10px;
     padding: 40px;
     align-items: center;
+    opacity: 0.8;
 }
 
 .links-pics {
@@ -386,7 +387,6 @@ li {
     display: flex;
     justify-content: center;
     margin: 50px;
-    border: solid #00ff66 5px;
     border-radius: 10px;
 }
 
