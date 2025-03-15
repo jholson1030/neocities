@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url(./arcadeclassic.regular.ttf);
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: calc(100vh - 16px);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #dee4e7;
+    color: #333333;
+    font-family: 'ArcadeClassic', sans-serif;
+    background-image: url(./pixel-art-countryside-house-landscape-with-sunset-and-clouds-background-8bit-game-background-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/*
+    --NIGHT MODE--
+.night-mode {
+    background-color: #333333;
+    color: #ffffff;
+    #container {
+        background-color: #ffffff;
+    }
+    .button {
+        background-color: black;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+    }
+    .slider {
+        background-color: #ffffff;
+    }
+    .github-link {
+        color: #ffffff;
+    }
+    .github-link:hover {
+        color: firebrick;
+    }
+}  */  
+
+.button {
+    font-family: 'ArcadeClassic', sans-serif;
+    background-color: #333333;
+    color: white;
+    font-size: 24px;
+    height: 75px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mode-toggle {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+}
+
+#canvas-color-label, #brush-color-label {
+    width: 250px;
+    height: fit-content;
+}
+
+#container {
+    border: 5px solid black;
+    margin: auto;
+    width: 25%;
+    height: auto;
+    aspect-ratio: 1 /1;
+    display: grid;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.cell {
+    border: 1px solid black;
+    min-width: 1fr;
+    min-height: 1fr;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 4px;
+}
+
+.color-picker {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    appearance: none;
+    background-color: transparent;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.color-picker::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+
+.slider-container {
+    width: fit-content;
+}
+
+.slider, .day-night {
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #90a4ae;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.slider:hover, .day-night:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb, .day-night::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.party-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dance-break {
+    margin-top: 15px;
+    height: 75px;
+    width: 200px;
+    font-size: 24;
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.finger {
+    height: 75px;
+}
+
+.dance-cats {
+    display: flex;
+    flex-direction: row;
+}
+
+.party-cats{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cats {
+    height: 10%;
+    width: 10%;
+}
+
+label {
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    margin: 0;
+    background-color: #333333;
+    color: #dee4e7;
+    padding-bottom: 10px;
+    z-index: 1000;
+}
+
+.github-link {
+    color: #dee4e7;
+    font-size: 22px;
+    transition: all .2s ease-in-out;
+    margin-left: 5px;
+}
+
+.github-link:hover {
+    transform: scale(1.2);
+    color: firebrick;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}

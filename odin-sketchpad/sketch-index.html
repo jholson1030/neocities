@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale= 1">
+        <title>John's Javascript Sketchpad</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/69a1ab25df.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>John's Javascript Sketchpad</h1>
+            <!-- <div class="day-night-container">
+                <button id="options" class="button mode-toggle">Toggle Day/Night Mode</button>
+            </div> -->
+        </div> 
+        <div class="body">
+            <div class="background-image"></div>
+            <div class="buttons" id="settings">
+                <button id="options" class="button black-btn">Black</button>
+                <button id="options" class="button eraser-btn">Eraser</button>
+                <label for="choose-brush-color" id="brush-color-label" class="color-picker-label brush-color">Choose Brush Color:</label>
+                <input id="custom-color" type="color" class="color-picker" value="#ff0000">
+                <button id="options" class="button rainbow-btn">Rainbow Mode</button>
+                <button id="options" class="button clear-btn">Start Over</button>  
+                <button id="options" class="button grid-btn">Add/Remove Grid</button>
+                <label for="canvas-color" id="canvas-color-label" class="color-picker">Choose canvas color:</label>
+                <input id='options' type="color" class="color-picker canvas-color" value="#ff0000">
+                <div class="slider-container">
+                    <label for="choose-canvas-size">Choose Canvas Size:   </label>
+                    <output id="slider-value"> 16 x 16</output>
+                    <input type="range" min="1" max="64" value="16" class="slider" id="slider-options">
+                    <br/>
+                    <div id="dance-cats">
+                        <!-- <img src="./pointy-finger.gif" alt="finger pointer" class="finger"> -->
+                        <button id="options" class="button dance-break">Make it a party!!!</button>
+                    </div>    
+                </div>
+            </div> 
+        <div id="container"></div>
+        </div>
+        <!--Button to take a dance break with some cool cats-->
+        <br>
+        <div class="party-cats">
+            <img src="./dancing-cat1.gif" alt="dancing-cat" class="cats">
+            <img src="./dancing-cat2.gif" alt="dancing-cat" class="cats">
+            <img src="./dancing-cat3.gif" alt="dancing-cat" class="cats">
+            <img src="./dancing-cat4.gif" alt="dancing-cat" class="cats">
+            <img src="./dancing-cat5.gif" alt="dancing-cat" class="cats">
+            <img src="./dancing-cat6.gif" alt="dancing-cat" class="cats">
+            <!--Add a midi file of some cool music-->
+        </div>
+        <div class="footer">
+            <p class="copyright">Copyright &#169 2023 John Olson  All code may be modified for use by others<a class="github-link" href="https://www.github.com/jholson1030"><i class="fa-brands fa-github"></i></a></p>
+        </div>
+        <script src="script.js"></script>   
+    </body>
+</html>
