@@ -1,0 +1,27 @@
+{
+  "name": "odin-calculator",
+  "version": "1.0.0",
+  "description": "This is my take on The Odin Project's Javascript Calculator project. In this project I will build a  fully functional calculator complete with UI.",
+  "main": "script.js",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jholson1030/odin-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jholson1030/odin-calculator/issues"
+  },
+  "homepage": "https://github.com/jholson1030/odin-calculator#readme"
+}

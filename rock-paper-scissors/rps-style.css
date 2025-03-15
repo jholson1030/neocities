@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    margin: 0;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content {
+    padding-bottom: 2.5rem;
+}
+
+.title {
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-score {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.computer-score {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 60px;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.start-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.computer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 60px;
+    width: 180px;
+    border: solid white 4px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin: 0 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hover effect on buttons */
+#rock, #paper, #scissors, .start-game {
+    transition: all .2s ease-in-out;
+}
+
+#rock:hover, #paper:hover, #scissors:hover, .start-game:hover {
+    transform: scale(1.2);
+    color: firebrick;
+    border: solid firebrick 4px;   
+    
+}
+
+.score-board {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 30%;
+    border: solid white 4px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#comp-choice {
+    padding-top: 50px;
+}
+
+/* This keeps the footer at the bottom */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.github-link {
+    color: white;
+    font-size: 22px;
+    transition: all .2s ease-in-out;
+}
+
+.github-link:hover {
+    transform: scale(1.2);
+    color: firebrick;
+}

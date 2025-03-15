@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale= 1">
+        <title>Rock Paper Scissors- With UI</title>
+        <link rel="stylesheet" href="rps-style.css">
+        <script src="https://kit.fontawesome.com/69a1ab25df.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="page-container">
+        <div class="content">
+        <div class="title">
+            <h1>Rock Paper Scissors.....to the DEATH!!</h1>
+            <button class="start-game" onclick="game()">Click to Play</button>
+        </div>
+        <div class="score-board">
+            <h2 id="player-score">Your score is: 0</h2>
+            <h2 id="computer-score">Computer's score is: 0</h2>
+        </div>
+        <div class="result"></div>
+        <div class="player">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <div class="computer">
+            <!--Have the corresponding choice display what the computer picked-->
+            <h2 id="comp-choice">The computer picked: </h2>
+        </div>
+        </div>
+        <div class="footer">
+            <p class="copyright">2022 Zeb-Dev <a class="github-link" href="https://www.github.com/jholson1030"><i class="fa-brands fa-github"></i></a></p>
+        </div>
+        </div>
+        <script src="rps-script.js"></script>    
+    </body>
+</html>
